@@ -919,7 +919,7 @@ require('lazy').setup({
     event = 'VimEnter',
     dependencies = { 'nvim-lua/plenary.nvim' },
     opts = {
-      signs = true,
+      signs = false,
       highlight = {
         pattern = [[.*<(KEYWORDS)\s*:?]],
       },
