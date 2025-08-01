@@ -924,7 +924,7 @@ require('lazy').setup({
         pattern = [[.*<(KEYWORDS)\s*:?]],
       },
       colors = {
-        info = { '#FFA500' },
+        info = { '#6CA2FF' },
       },
       search = {
         pattern = [[\b(KEYWORDS)\s*:?]],
