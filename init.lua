@@ -486,8 +486,16 @@ require('lazy').setup({
       },
     },
   },
+
+  -- Typescript tools (to use it, remove nvim-lspconfig): https://github.com/pmizio/typescript-tools.nvim
+  -- {
+  --   'pmizio/typescript-tools.nvim',
+  --   dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
+  --   opts = {},
+  -- },
+
+  -- Main LSP Configuration
   {
-    -- Main LSP Configuration
     'neovim/nvim-lspconfig',
     dependencies = {
       -- Automatically install LSPs and related tools to stdpath for Neovim
@@ -784,10 +792,6 @@ require('lazy').setup({
         -- python = { "isort", "black" },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
-        javascript = { 'prettier' },
-        typescript = { 'prettier' },
-        json = { 'prettier' },
-        -- markdown = { 'prettier' },
       },
     },
   },
